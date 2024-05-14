@@ -231,44 +231,11 @@ a{
  
 /* -- Feature Sec -- */
 .featureSection{
-   position: relative;
+   background: #FFFFFF;
 }
 .featureItems{
-   background: #FFFFFF;
    border-radius: 20px;
-   padding:100px 70px 150px 50px;
-}
-.featureContent{
-   position: relative;
-}
-.featureContent .secTitle{
-   margin: 0 0 20px;
-}
-.featureContent p{
-   padding: 0 0 12px 0;
-}
-.featureList{
-   position: relative;
-   margin: 0 0 70px;
-   padding: 0;
-   list-style: none;
-}
-.featureList li{
-   margin: 0 0 25px 60px;
-   position: relative;
-}
-.featureList li::after{
-   content: "";
-   position: absolute;
-   background: #FFFFFF;
-   border: 5px solid #511414;
-   width: 20px;
-   height: 20px;
-   left: 0;
-   top: 0;
-   bottom: 0;
-   margin: auto -58px;
-   border-radius: 50%;
+   padding:200px 40px 0;
 }
 .featureImg{
    position: relative;
@@ -292,7 +259,7 @@ a{
 .coWorkingItem{
    width: 100%;
    max-width: 400px;
-   padding: 30px;
+   padding: 26px 30px 20px;
    display: flex;
    gap: 20px;
    color: #1466CB;
@@ -328,15 +295,17 @@ a{
  .sticky + .content {
    padding-top: 60px;
  }
-
-
-
-
-
-
-
-
-
+.coFeatureImg{
+   margin-top: 30px;
+   display: flex;
+   justify-content: space-between;
+   gap: 10px;
+}
+.coFeatureImg img{
+   width: 100%;
+   max-width: 226px;
+   height: 160px;
+}
 
 /* -- Work Place -- */
 .workPlaceSec{
